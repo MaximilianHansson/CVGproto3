@@ -23,6 +23,7 @@ textarea {
     transition: all 0.25s ease;
     color: white;
     border: none;
+    font-size: larger;
 }
 
 .past-main{
@@ -39,12 +40,18 @@ header {
     -o-background-size: cover;
     background-size: cover;
     padding: 50px;
+    height: 100vh;
+    text-align: center;
+}
+.navbar-nav > li > a {
+    color: white;
 }
 
 #newsPart{
     border: 1px black;
-    height: 100%;
+    height: 1000px;
     position:page;
     width: 100%;
+    background-color: blue;
 }
 
