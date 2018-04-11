@@ -8,7 +8,7 @@ namespace CVGPrototype.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
+        // GET: Home hej
         public ActionResult Index()
         {
             return View("Home");
