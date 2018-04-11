@@ -132,6 +132,7 @@
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="scripts\Site.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_Layout - Copy.cshtml" />
   </ItemGroup>
