@@ -39,6 +39,7 @@ header {
     -o-background-size: cover;
     background-size: cover;
     padding: 50px;
+    height: 100vh;
 }
 
 #newsPart{
