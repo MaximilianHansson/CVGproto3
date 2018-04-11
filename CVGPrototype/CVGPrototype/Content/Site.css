@@ -1,7 +1,8 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-image:url(Images/header.jpg)
+    background-image: url(Images/header.jpg);
+    background-size: 100% 100%
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -20,5 +21,3 @@ textarea {
 .part{
     color:white;
 }
-
-
