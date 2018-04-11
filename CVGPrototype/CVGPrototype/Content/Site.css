@@ -1,13 +1,8 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-    background-image:url(Images/header.jpg)
 }
 
-/* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    text-align: left;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -16,6 +11,7 @@ select,
 textarea {
     max-width: 280px;
 }
+
 
 .part{
     color:white;
@@ -33,3 +29,22 @@ textarea {
     background-color: white;
     color: black;
 }
+
+header {
+    color: white;
+    background-image: url("Images/header.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px;
+}
+
+#newsPart{
+    border: 1px black;
+    height: 100%;
+    position:page;
+    width: 100%;
+}
+
