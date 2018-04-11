@@ -19,6 +19,17 @@ textarea {
 
 .part{
     color:white;
+    height: 1000px;
 }
 
+.navbar-default{
+    background-color: transparent;
+    transition: all 0.25s ease;
+    color: white;
+    border: none;
+}
 
+.past-main{
+    background-color: white;
+    color: black;
+}
