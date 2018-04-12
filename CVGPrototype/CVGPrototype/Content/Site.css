@@ -18,17 +18,32 @@ textarea {
     height: 1000px;
 }
 
-.navbar-default{
+.navbar-inverse{
     background-color: transparent;
     transition: all 0.25s ease;
     color: white;
     border: none;
+    text-align:center;
+    margin: 0 auto;
 }
-
 .past-main{
     background-color: white;
     color: black;
 }
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 1.8em;
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: darkgrey;
+}
+
+.past-main .navbar-nav > li > a {
+    color: black;
+}
+
+
+
 
 header {
     color: white;
@@ -48,4 +63,15 @@ header {
     position:page;
     width: 100%;
 }
+
+img{
+    height: 100px;
+}
+
+.navbar-right{
+    padding: 25px;
+}
+
+
+
 
