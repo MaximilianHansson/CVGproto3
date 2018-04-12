@@ -29,20 +29,38 @@ textarea {
     max-width: 280px;
     border-style: none;
 }
+.part{
+    color:white;
+    height: 1000px;
+}
 
-
-.navbar-default {
+.navbar-inverse{
     background-color: transparent;
     transition: all 0.25s ease;
     color: white;
-    border-style: none;
+    border: none;
+    text-align:center;
+    margin: 0 auto;
 }
-
-.past-main {
+.past-main{
     background-color: white;
     color: black;
     border-style: none;
 }
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 1.8em;
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: darkgrey;
+}
+
+.past-main .navbar-nav > li > a {
+    color: black;
+}
+
+
+
 
 header {
     color: white;
@@ -92,7 +110,15 @@ header {
     border-style: none;
 }
 
+img{
+    height: 100px;
+}
+
+.navbar-right{
+    padding: 25px;
+
 #eftermarknad {
     background-image: url(Images/ulrik-helbild.jpg);
     border-style: none;
 }
+
