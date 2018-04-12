@@ -1,8 +1,25 @@
-﻿body {
+﻿
+
+body {
+}
+
+h1 {
+    font-size: 70px;
+    border-style: none;
+}
+
+hr {
+    max-width: 38em;
+    border-width: 5px;
+    border-color: white;
 }
 
 .body-content {
-    text-align: left;
+    text-align: center;
+    font-size: 1.55em;
+    font-weight: bold;
+    color: black;
+    border-style: none;
 }
 
 /* Set width on the form input elements since they're 100% wide by default */
@@ -10,29 +27,26 @@ input,
 select,
 textarea {
     max-width: 280px;
+    border-style: none;
 }
 
 
-.part{
-    color:white;
-    height: 1000px;
-}
-
-.navbar-default{
+.navbar-default {
     background-color: transparent;
     transition: all 0.25s ease;
     color: white;
-    border: none;
+    border-style: none;
 }
 
-.past-main{
+.past-main {
     background-color: white;
     color: black;
+    border-style: none;
 }
 
 header {
     color: white;
-    background-image: url("Images/header.jpg");
+    background-image: url("Images/header1.jpg");
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -40,12 +54,45 @@ header {
     background-size: cover;
     padding: 50px;
     height: 100vh;
+    border-style: none;
+    background-size: 100% 100%;
+    -moz-box-shadow: inset 10px 10px 50px #fff;
+    -webkit-box-shadow: inset 10px 10px 50px #fff;
+    box-shadow: inset 0px 70px 400px #000;
 }
 
-#newsPart{
-    border: 1px black;
+
+
+.CGVHome {
+    padding-top: 18%;
+    border-style: none;
+    font-size: larger;
+}
+
+#newsPart {
     height: 100%;
-    position:page;
     width: 100%;
+    color: white;
+    background-color: #4267b2;
+}
 }
 
+#råsortering {
+    background-color: darkolivegreen;
+    border-style: none;
+}
+
+#justerverkHyvleri {
+    background-color: coral;
+    border-style: none;
+}
+
+#automation {
+    background-color: aquamarine;
+    border-style: none;
+}
+
+#eftermarknad {
+    background-image: url(Images/ulrik-helbild.jpg);
+    border-style: none;
+}
