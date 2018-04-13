@@ -120,6 +120,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\CGV transparent.png" />
     <Content Include="Content\Images\cgv-logo-2-rader.jpg" />
     <Content Include="Content\Images\header1.jpg" />
     <Content Include="Content\Images\newsPlank.jpg" />

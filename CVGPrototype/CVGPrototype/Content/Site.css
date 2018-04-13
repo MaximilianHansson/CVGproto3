@@ -46,10 +46,12 @@ textarea {
     background-color: white;
     color: black;
     border-style: none;
+    border-bottom:1px solid rgba(33,37,41,.1)
 }
 .navbar-inverse .navbar-nav > li > a {
-    font-size: 1.8em;
+    font-size: 1.4em;
     color: white;
+    text-transform:uppercase;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
     color: darkgrey;
@@ -58,9 +60,6 @@ textarea {
 .past-main .navbar-nav > li > a {
     color: black;
 }
-
-
-
 
 header {
     color: white;
@@ -114,9 +113,9 @@ img{
     height: 100px;
 }
 
-.navbar-right{
+.navbar-right {
     padding: 25px;
-
+}
 #eftermarknad {
     background-image: url(Images/ulrik-helbild.jpg);
     border-style: none;
