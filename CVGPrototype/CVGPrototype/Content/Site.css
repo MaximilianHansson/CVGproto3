@@ -196,6 +196,57 @@ header {
     padding: 1rem;
 }
 
+.mainFooter {
+    
+    position: unset;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+
+.mainFooter a{
+    color: white;
+}
+.glyphicon glyphicon-earphone{
+    padding-right:20px;
+}
+.glyphicon glyphicon-envelope{
+    padding-right:20px;
+}
+
+#col1 {
+    padding-top: 60px;
+}
+#col2{
+    padding-top:60px;
+   
+}
+#col2 p {
+    padding-bottom: 10px;
+    
+}
+#col3{
+    padding-top: 60px;
+}
+.footerHR {
+    border-width: 1px;
+    border-color: grey;
+    max-width: 200px;
+}
+.adress{
+    text-align: left;
+    padding-left: 105px;
+}
+.info {
+    text-align: left;
+    padding-left: 85px;
+}
 @media (max-width: 1440px){
     .navbar-inverse .navbar-nav > li > a {
     font-size: 1.4em !important;
