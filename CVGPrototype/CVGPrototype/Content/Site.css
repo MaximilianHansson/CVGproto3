@@ -7,6 +7,7 @@ p{
     margin:0;
 }
 body {
+    background-color: whitesmoke;
 }
 
 h1 {
@@ -32,10 +33,6 @@ input,
 select,
 textarea {
     max-width: 280px;
-}
-.part{
-    color:white;
-    height: 1000px;
 }
 
 .navbar-inverse{
@@ -94,18 +91,19 @@ header {
 #newsPart {
     height: 100%;
     width: 100%;
-    color: white;
-    background-color: #4267b2;
+    color: black;
+    background-color: whitesmoke;
 }
 
 #råsortering {
-    background-color: white;
     border-style: none;
+    width:100%;
+    background: white;
 }
 
 #justerverkHyvleri {
     background-color: #4267b2;
-color: white;
+    color: white;
 }
 
 #automation {
@@ -135,4 +133,34 @@ img{
 
 #omCGV{
     background-color:red;
+}
+
+
+.left {
+    width: 66%;
+    float: left;
+    padding-right: 5%;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+.right {
+    float: right;
+    width: 34%;
+    margin-bottom: 60px;
+    border: solid 1px #dfdfdf;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0 35px 35px;
+    margin-top: 102px;
+    background-color: white;
+}
+
+#newsHR{
+    border-color:black;
+
 }
