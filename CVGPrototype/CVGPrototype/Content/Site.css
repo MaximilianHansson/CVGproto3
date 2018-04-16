@@ -266,9 +266,11 @@ header {
     }
 }
 @media (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
+    .collapse {
+        display: none !important;
+    }
+}
+
 .right-half {
     width:80%;
     float:right;
