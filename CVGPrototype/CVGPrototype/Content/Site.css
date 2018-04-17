@@ -121,11 +121,6 @@ header {
     border-style: none;
 }
 
-#eftermarknad {
-    background-image: url(Images/ulrik-helbild.jpg);
-    border-style: none;
-}
-
 #justerverkPadding{
     padding-bottom: 20px;
 }
@@ -134,22 +129,19 @@ header {
     padding-top: 15px;
 }
 
-#omCGV{
-    background-color:red;
-}
-
-
 .left {
     width: 66%;
     float: left;
     padding-right: 5%;
     padding-top: 64px;
     padding-bottom: 80px;
+    text-align:left;
+    padding-left: 3.5em;
 }
 
 .right {
     float: right;
-    width: 34%;
+    width: 25%;
     margin-bottom: 60px;
     border: solid 1px #dfdfdf;
     -webkit-border-radius: 8px;
@@ -167,21 +159,33 @@ header {
     border-color: black;
 }
 
+.newsP{
+    font-weight: normal;
+}
+
 .left-half .right-half {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.rasort{
+    text-align: left;
+    margin-left: 1.2em;
+}
+.justerv {
+    text-align: left;
+}
+
 
 /* Pattern styles */
 .fluid {
   display: flex;
-  height:20em;
+  height:18em;
 }
 
 .justerverk{
-    height: 30em;
+    height: 22em;
 }
 
 .left-half {
@@ -192,7 +196,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
-    flex: 1;
+    flex: 1.25;
     padding: 1rem;
 }
 
@@ -272,11 +276,13 @@ header {
 }
 
 .right-half {
-    width:80%;
-    float:right;
+    width: 80%;
+    float: right;
     background-color: white;
     flex: 1.5;
     padding: 1rem;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
 }
 
 .readRåsort{
@@ -298,11 +304,11 @@ header {
     background-color: whitesmoke;
 }
 
-.item-råsort{
+.item-justerverk{
     background-color: white;
     float: right;
     padding-right: 0;
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .glyphicon-log-in{
@@ -335,7 +341,7 @@ header {
     width: 55%;
     float: left;
     background-color: whitesmoke;
-    flex: 1.25;
+    flex: 1.5;
     padding: 1rem;
     padding-left: 3.5em;
     padding-right: 3.5em;
@@ -358,4 +364,71 @@ section {
 }
 .backgroundColor{
     background-color: white;
+}
+
+.autom{
+    height: 22em;
+}
+.automationLeft {
+    float: left;
+    background-image: url(Images/automation1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    flex: 1.25;
+}
+.automationRight {
+    float: right;
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    flex: 1.5;
+    padding: 1rem;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+
+.automationText{
+    text-align: left;
+}
+
+.item-automation {
+    background-color: whitesmoke;
+    float: left;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 0.5em;
+}
+
+.eftermarknadRight {
+    float: right;
+    background-image: url(Images/ulrik-helbild.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    flex: 0.5em;
+}
+
+.eftermarknadLeft {
+    float: left;
+    height: 100%;
+    width: 55%;
+    background-color: whitesmoke;
+    flex: 2.5;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-top: 3em;
+
+}
+
+.eftermarknadText{
+    text-align: left;
+}
+
+#eftermarknad {
+    height: 22em;
+}
+.item-eftermarknad{
+    background-color: white;
+    float: right;
 }
