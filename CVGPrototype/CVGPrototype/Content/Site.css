@@ -432,10 +432,10 @@ section {
 #eftermarknad {
     height: 22em;
 }
-.item-eftermarknad{
+.item-eftermarknad {
     background-color: white;
     float: right;
-
+}
 #to_top_button{
     position:fixed;
     right: 3em;
