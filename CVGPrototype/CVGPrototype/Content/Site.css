@@ -50,6 +50,7 @@ textarea {
 .navbar-inverse .navbar-nav > li > a {
     font-size: 1.8em;
     color: white;
+    cursor:pointer;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -251,6 +252,7 @@ header {
     text-align: left;
     padding-left: 85px;
 }
+
 @media (max-width: 1440px){
     .navbar-inverse .navbar-nav > li > a {
     font-size: 1.4em !important;
@@ -269,6 +271,7 @@ header {
         padding: 15px
     }
 }
+
 @media (max-width: 1000px) {
     .collapse {
         display: none !important;
@@ -366,6 +369,7 @@ section {
     background-color: white;
 }
 
+
 .autom{
     height: 22em;
 }
@@ -431,4 +435,18 @@ section {
 .item-eftermarknad{
     background-color: white;
     float: right;
+
+#to_top_button{
+    position:fixed;
+    right: 3em;
+    bottom: 3em;
+    height: 2.5em;
+    width: 2.5em;
+    z-index: 200;
+    text-align:center;
+    border: 1px solid #dfdfdf;
+    border-radius: 0.5em;
+    visibility:hidden;
+    transition: all 0.25s ease;
+
 }
