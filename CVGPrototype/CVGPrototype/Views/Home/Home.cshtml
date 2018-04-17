@@ -20,26 +20,27 @@
 
     <div class="left">
         <h1>Kontakta oss!</h1>
-        <p>C.Gunnarssons Verkstads AB har huvudkontor med administration,</p>
-        <p>produktion, mekanisk konstruktion och försäljning i Vislanda.</p>
-        <p></p>
-        <p>Adress:</p>
-        <p>C.Gunnarssons Verkstads AB</p>
-        <p>Olvägen 22</p>
-        <p>34250 Vislanda</p>
-        <p></p>
-        <p>I Växjö finns automationsavdelningen med programmering och support.</p>
-        <p></p>
-        <p>Adress:</p>
-        <p>C.Gunnarssons Verkstads AB</p>
-        <p>Automationsavdelning</p>
-        <p>Arabygatan 11</p>
-        <p>352 46 Växjö</p>
+        <p class="newsP">
+            C.Gunnarssons Verkstads AB har huvudkontor med administration, produktion, mekanisk konstruktion och försäljning i Vislanda.
+            <br />
+            Adress:<br />
+            C.Gunnarssons Verkstads AB<br />
+            Olvägen 22<br />
+            34250 Vislanda<br />
+            <br />
+            I Växjö finns automationsavdelningen med programmering och support.<br />
+            <br />
+            Adress:<br />
+            C.Gunnarssons Verkstads AB<br />
+            Automationsavdelning<br />
+            Arabygatan 11<br />
+            352 46 Växjö<br />
+        </p>
     </div>
 
     <div class="right">
         <div class="news-widget">
-            <h1 id="newsHeader"><strong>Nyheter</strong></h1>
+            <h2 id="newsHeader"><strong>Nyheter</strong></h2>
             <hr id="newsHR">
             <a href="#">Uppstart i Estland</a>
             <p>Skriven 2016-08-05 10:37 av admin</p>
@@ -60,13 +61,15 @@
     </div>
     <div class="right-half">
         <article>
-            <h1>Råsortering</h1>
-            
+            <div class="rasort">
+                <h1>Råsortering</h1>
+
                 <h3>CGV har idag system och produkter som passar både stora och små sågverk.</h3>
                 <p class="sectionP">
                     Vår ambition är att våra konstruktioner skall präglas av en hög innovationsnivå samtidigt som de inte skall vara onödigt komplicerade då det ofta leder
                     till dålig tillgänglighet och höga underhållskostnader..
                 </p>
+            </div>
             <div class="readRåsort">
                 <a href="#" class="icon-link-item">
                     <div class="icon-bar read-more glyphicon glyphicon-log-in">
@@ -83,13 +86,14 @@
 
 <section class="fluid justerverk" id="justerverk">
     <div class="justerverkLeft">
-        <h1 id="h1Padding"><strong>Justerverk/hyvleri</strong></h1>
-        <h3><strong> Under dom senaste åren har det skett stora förändringar när det gäller slut sorteringen på sågverken.</strong></h3>
-        <p class="sectionP">Med dessa system tar man bort begränsningen som människan har för att sortera virke och sorteringen blir helt konsekvent oavsett hur länge man kör.</p>
-        <p class="sectionP">Det har byggts ett antal högkapacitets hyvlerier i Sverige som CGV har fått förmånen att leverera till Vida Vislanda, Södra Timber Långasjö och Holmen Timber Braviken.</p>
-
+        <div class="justerv">
+            <h1 id="h1Padding">Justerverk/hyvleri</h1>
+            <h3><strong> Under dom senaste åren har det skett stora förändringar när det gäller slut sorteringen på sågverken.</strong></h3>
+            <p class="sectionP">Med dessa system tar man bort begränsningen som människan har för att sortera virke och sorteringen blir helt konsekvent oavsett hur länge man kör.</p>
+            <p class="sectionP">Det har byggts ett antal högkapacitets hyvlerier i Sverige som CGV har fått förmånen att leverera till Vida Vislanda, Södra Timber Långasjö och Holmen Timber Braviken.</p>
+        </div>
         <div class="readJusterverk">
-            <a href="#" class="icon-link-item item-råsort">
+            <a href="#" class="icon-link-item item-justerverk">
                 <div class="icon-bar read-more glyphicon glyphicon-log-in">
 
                 </div>
@@ -106,40 +110,54 @@
 
 </section>
 
-<section id="automation">
-    <h1 id="h1Padding"><strong>Automation</strong></h1>
-    <p>CGV har sedan 1960-talet levererat styrningar till våra maskiner.</p>
-    <p>Fram till 1980-talet handlade det oftast om relä för att styra maskiner, till sorteringsstyrning köptes det mestadels in något specialsystem.</p>
-    <p></p>
-    <p>1980 började CGV använda PLC-system från Satt-Control och 1985 övergick vi till Simatic S5.</p>
-    <p>Efterhand som anläggningarna blev mer komplexa så ökade behovet av kraftfullare styrsystem, och redan 1996 började vi använda Simatic S7.</p>
-    <p></p>
-    <p>Kraven på styrsystemens prestanda ökar ständigt, då detta står i direkt relation med maskinens kapacitet.</p>
-    <p>2005 började vi undersöka marknaden efter system som vi ansåg lämpligt för att styra sorterings-anläggningar.</p>
-    <p>Efter en gedigen undersökning beslöt vi att gå över till en PC-baserad lösning från Beckhoff Automation GmbH.</p>
-    <p></p>
-    <p>Det koncept som CGV arbetat fram ligger definitivt i framkant med vad som finns tillgängligt på marknaden idag.</p>
-    <p>För våra kunder innebär det att maskinerna har tillgång till kraftfulla styrsystem som kan utvecklas med maskinen.</p>
+<section class="fluid autom" id="automation">
+    <div class="automationLeft">
+
+    </div>
+    <div class="automationRight">
+        <div class="automationText">
+            <h1 id="h1Padding">Automation</h1>
+            <p>
+                Kraven på styrsystemens prestanda ökar ständigt, då detta står i direkt relation med maskinens kapacitet.
+                2005 började vi undersöka marknaden efter system som vi ansåg lämpligt för att styra sorterings-anläggningar.
+                Efter en gedigen undersökning beslöt vi att gå över till en PC-baserad lösning från Beckhoff Automation GmbH.
+
+                Det koncept som CGV arbetat fram ligger definitivt i framkant med vad som finns tillgängligt på marknaden idag. För våra kunder innebär det att maskinerna har tillgång till kraftfulla styrsystem som kan utvecklas med maskinen.
+            </p>
+        </div>
+        <div class="readAutomation">
+            <a href="#" class="icon-link-item item-automation">
+                <div class="icon-bar read-more glyphicon glyphicon-log-in">
+
+                </div>
+                <p class="readP">
+                    <b><strong>Läs mer</strong></b>
+                </p>
+            </a>
+        </div>
+    </div>
 </section>
 
-<section id="eftermarknad">
-    <h1 id="h1Padding"><strong>Eftermarknad</strong></h1>
-    <p>Skall man undvika onödiga driftstopp är det naturligt att jobba med ett förebyggande underhåll.</p>
-    <p>Då kan man i god tid byta ut delar som är slitna och därigenom undvika haverier.</p>
-    <p>Med dokumentationen till maskiner som levereras, medföljer reservdelslistor som gör det enklare att beställa rätt reservdel.</p>
-    <p>För att beställa reservdelar mejlar ni enklast till <a href="#">aftermarket@cgv.se</a>.</p>
-    <p></p>
-    <a href="#">Behöver man en personlig kontakt, kan ni kontakta Ulrik Gustafsson på telefon eller mejl.</a>
-    <p></p>
-    <p>Man kan även boka besiktning eller servicebesök av CGV för att få förslag på lämpligt underhåll eller uppgradering.</p>
-    <p>Detta är ofta en bra ide då service personalen kanske har erfarenhet från liknande anläggningar och då kan ge förslag på förbättringar.</p>
-    <p>Skall man undvika onödiga driftstopp är det naturligt att jobba med ett förebyggande underhåll.</p>
-    <p>Då kan man i god tid byta ut delar som är slitna och därigenom undvika haverier.</p>
-    <p>Med dokumentationen till maskiner som levereras, medföljer reservdelslistor som gör det enklare att beställa rätt reservdel.</p>
-    <p>För att beställa reservdelar mejlar ni enklast till <a href="#">aftermarket@cgv.se</a>.</p>
+<section class="fluid" id="eftermarknad">
+    <div class="eftermarknadLeft">
+        <div class="eftermarknadText">
+            <h1 id="h1Padding">Eftermarknad</h1>
+            <p>
+                Skall man undvika onödiga driftstopp är det naturligt att jobba med ett förebyggande underhåll.
+                Då kan man i god tid byta ut delar som är slitna och därigenom undvika haverier.
+                Med dokumentationen till maskiner som levereras, medföljer reservdelslistor som gör det enklare att beställa rätt reservdel.
+                För att beställa reservdelar mejlar ni enklast till aftermarket@cgv.se.
+
+                Behöver man en personlig kontakt, kan ni kontakta Ulrik Gustafsson på telefon eller mejl.
+
+                Man kan även boka besiktning eller servicebesök av CGV för att få förslag på lämpligt underhåll eller uppgradering.
+                Detta är ofta en bra ide då service personalen kanske har erfarenhet från liknande anläggningar och då kan ge förslag på förbättringar.
+            </p>
+        </div>
+    </div>
+    <div class="eftermarknadRight">
+
+    </div>
 
 </section>
 
-<section id="omCGV">
-    <p>hejsan</p>
-</section>
