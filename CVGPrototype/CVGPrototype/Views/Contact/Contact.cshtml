@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+}
+
+<div class="nav_space"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 text-left">
+            <h2>Kom i Kontakt med oss!</h2>
+            <p class="">
+                C.Gunnarssons Verkstads AB har huvudkontor med administration, produktion, mekanisk konstruktion och försäljning i Vislanda.<br />
+                Adress:<br />
+                C.Gunnarssons Verkstads AB<br />
+                Olvägen 22<br />
+                34250 Vislanda<br />
+                <br />
+                I Växjö finns automationsavdelningen med programmering och support.<br />
+                <br />
+                Adress:<br />
+                C.Gunnarssons Verkstads AB<br />
+                Automationsavdelning<br />
+                Arabygatan 11<br />
+                352 46 Växjö<br />
+            </p>
+        </div>
+
+
+        <div class="col-lg-4">
+            <div id="map"></div>
+            <script>
+      function initMap() {
+          var uluru = { lat: 56.7931475, lng: 14.4356434 };
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+            </script>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+    <div class="row">
+        <h2>Våra Anställda</h2>
+        <div class="col-lg-6">
+            <ul class="contact_list">
+                <li>
+                    <img src="~/Content/Images/ulrik-helbild.jpg" />
+                    <p>
+                        <strong>Ulrik Gustafsson</strong><br />
+                        <strong>E-Mail:</strong> ulrik.Gustafsson@cvg.se<br />
+                        <strong>Nummer:</strong> 072 321 21 21
+                    </p>
+                </li>
+                <li>
+                    <img src="~/Content/Images/ulrik-helbild.jpg" />
+                    <p>
+                        <strong>Ulrik Gustafsson</strong><br />
+                        <strong>E-Mail:</strong> ulrik.Gustafsson@cvg.se<br />
+                        <strong>Nummer:</strong> 072 321 21 21
+                    </p>
+                </li>
+                <li>
+                    <img src="~/Content/Images/ulrik-helbild.jpg" />
+                    <p>
+                        <strong>Ulrik Gustafsson</strong><br />
+                        <strong>E-Mail:</strong> ulrik.Gustafsson@cvg.se<br />
+                        <strong>Nummer:</strong> 072 321 21 21
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <ul class="contact_list">
+                <li>
+                    <img src="~/Content/Images/ulrik-helbild.jpg" />
+                    <p>
+                        <strong>Ulrik Gustafsson</strong><br />
+                        <strong>E-Mail:</strong> ulrik.Gustafsson@cvg.se<br />
+                        <strong>Nummer:</strong> 072 321 21 21
+                    </p>
+                </li>
+                <li>
+                    <img src="~/Content/Images/ulrik-helbild.jpg" />
+                    <p>
+                        <strong>Ulrik Gustafsson</strong><br />
+                        <strong>E-Mail:</strong> ulrik.Gustafsson@cvg.se<br />
+                        <strong>Nummer:</strong> 072 321 21 21
+                    </p>
+                </li>
+                <li>
+                    <img src="~/Content/Images/ulrik-helbild.jpg" />
+                    <p>
+                        <strong>Ulrik Gustafsson</strong><br />
+                        <strong>E-Mail:</strong> ulrik.Gustafsson@cvg.se<br />
+                        <strong>Nummer:</strong> 072 321 21 21
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMe6kj_4dhPvKGLxKgwyZsKhlumS4VJ5Y&callback=initMap">
+</script>

@@ -10,9 +10,12 @@ body {
     background-color: whitesmoke;
 }
 
-h1 {
-    font-size: 70px;
-    margin: 0;
+h1{
+    font-size: 1.5em;
+    margin:unset;
+}
+h2, h3{
+    margin: unset;
 }
 
 hr {
@@ -284,6 +287,7 @@ header {
     background-color: white;
     flex: 1.5;
     padding: 1rem;
+    padding-top: 1em;
     padding-left: 3.5em;
     padding-right: 3.5em;
 }
@@ -425,8 +429,10 @@ section {
 
 }
 
-.eftermarknadText{
+.eftermarknadText {
     text-align: left;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 #eftermarknad {
@@ -447,10 +453,30 @@ section {
     border: 1px solid #dfdfdf;
     border-radius: 0.5em;
     visibility:hidden;
-    transition: all 0.25s ease;
+    transition: all 0.25s ease
+}
+.nav_space{
+    height: 200px;
+    background-image:url(/Content/Images/planks1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#map{
+    height: 400px;
+    background-color: grey;
+    width: 20em;
+    margin: 2em;
+}
+.sec_left{
+    display:inline-block;
+    width: 49%;
+    text-align: left;
+    padding: 3em;
 }
 
+
 .aboutNav {
+
     margin:100px;
 }
 section {
@@ -524,3 +550,45 @@ h2{
     font-size:50px;
 }
     
+
+    height: 100px;
+    background-color: black;
+}
+#pPadding {
+    padding-top: 1em;
+}
+
+.rowPadding{
+    margin: unset;
+}
+
+.partners {
+    border: 1px solid #dfdfdf;
+    background-color: white;
+    padding: 0;
+}
+.sec_left p{
+    font-weight:400;
+    width: 50%;
+}
+
+/*Contact lists*/
+
+.contact_list{
+    list-style: none;
+    display: inline-block;
+}
+.contact_list li{
+    vertical-align: top;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    text-align:left;
+}
+.contact_list img{
+    height: 7em;
+    display: inline-block;
+}
+.contact_list p {
+    display:inline-block; 
+}
+
