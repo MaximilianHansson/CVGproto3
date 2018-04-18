@@ -453,3 +453,74 @@ section {
 .aboutNav {
     margin:100px;
 }
+section {
+    border: solid 1px #dfdfdf;
+}
+
+/*Rasortering-page*/
+
+.sideLeft {
+    background-color: white;
+   
+    display: block;
+    padding-top:5px;
+    padding-bottom:800px;
+    display:inline-block;
+
+  
+   
+}
+
+.sideRight {
+    background-color: whitesmoke;
+    text-align: left;
+    display: inline-block;
+    
+}
+
+}
+
+.rasorteringSection {
+    height: 100%;
+    width: 1200px;
+    background-color: black;
+   
+}
+
+.menuContent li {
+    list-style-type: none;
+    text-align:left;
+    padding-top: 10px;
+    font-size:20px;
+    
+
+}
+h2{
+    text-align:left;
+   
+    font-size: 30px;
+}
+.sideRight p{
+    text-align:left;
+   
+
+    
+}
+
+.rasorteringContainer{
+    max-width:none;
+    margin: 0;
+   
+}
+
+.sideRight img{
+   display:block;
+   width:600px;
+   height:400px;
+   object-fit:cover;
+   object-position:center;
+}
+.sideRight h4{
+    font-size:50px;
+}
+    
