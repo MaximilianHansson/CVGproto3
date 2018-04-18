@@ -24,7 +24,6 @@ hr {
 .body-content {
     text-align: center;
     font-size: 1.55em;
-    font-weight: bold;
     color: black;
 }
 
@@ -77,9 +76,7 @@ textarea {
     background-color: whitesmoke;
 }
 
-a{
-    color: black;
-}
+
 
 header {
     color: white;
@@ -133,16 +130,17 @@ header {
 .left {
     width: 66%;
     float: left;
-    padding-right: 5%;
+    padding-right: 12em;
     padding-top: 64px;
     padding-bottom: 80px;
     text-align:left;
     padding-left: 3.5em;
+    margin-left: 3em;
 }
 
 .right {
     float: right;
-    width: 25%;
+    width: 20%;
     margin-bottom: 60px;
     border: solid 1px #dfdfdf;
     -webkit-border-radius: 8px;
@@ -151,9 +149,11 @@ header {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    padding: 0 35px 35px;
+    padding: 0 2.5em 2.5em;
     margin-top: 102px;
     background-color: white;
+    padding-top: 2.5em;
+
 }
 
 #newsHR {
@@ -180,9 +180,9 @@ header {
 
 
 /* Pattern styles */
-.fluid {
-  display: flex;
-  height:18em;
+.sectionImg {
+    display: flex;
+    height: 18em;
 }
 
 .justerverk{
@@ -371,7 +371,7 @@ section {
 
 
 .autom{
-    height: 22em;
+    height: 23em;
 }
 .automationLeft {
     float: left;
@@ -448,5 +448,8 @@ section {
     border-radius: 0.5em;
     visibility:hidden;
     transition: all 0.25s ease;
+}
 
+.aboutNav {
+    margin:100px;
 }
