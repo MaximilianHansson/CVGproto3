@@ -24,7 +24,6 @@ hr {
 .body-content {
     text-align: center;
     font-size: 1.55em;
-    font-weight: bold;
     color: black;
 }
 
@@ -50,6 +49,7 @@ textarea {
 .navbar-inverse .navbar-nav > li > a {
     font-size: 1.8em;
     color: white;
+    cursor:pointer;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -76,9 +76,7 @@ textarea {
     background-color: whitesmoke;
 }
 
-a{
-    color: black;
-}
+
 
 header {
     color: white;
@@ -121,11 +119,6 @@ header {
     border-style: none;
 }
 
-#eftermarknad {
-    background-image: url(Images/ulrik-helbild.jpg);
-    border-style: none;
-}
-
 #justerverkPadding{
     padding-bottom: 20px;
 }
@@ -134,22 +127,20 @@ header {
     padding-top: 15px;
 }
 
-#omCGV{
-    background-color:red;
-}
-
-
 .left {
     width: 66%;
     float: left;
-    padding-right: 5%;
+    padding-right: 12em;
     padding-top: 64px;
     padding-bottom: 80px;
+    text-align:left;
+    padding-left: 3.5em;
+    margin-left: 3em;
 }
 
 .right {
     float: right;
-    width: 34%;
+    width: 20%;
     margin-bottom: 60px;
     border: solid 1px #dfdfdf;
     -webkit-border-radius: 8px;
@@ -158,13 +149,19 @@ header {
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    padding: 0 35px 35px;
+    padding: 0 2.5em 2.5em;
     margin-top: 102px;
     background-color: white;
+    padding-top: 2.5em;
+
 }
 
 #newsHR {
     border-color: black;
+}
+
+.newsP{
+    font-weight: normal;
 }
 
 .left-half .right-half {
@@ -173,15 +170,23 @@ header {
     justify-content: center;
 }
 
+.rasort{
+    text-align: left;
+    margin-left: 1.2em;
+}
+.justerv {
+    text-align: left;
+}
+
 
 /* Pattern styles */
-.fluid {
-  display: flex;
-  height:20em;
+.sectionImg {
+    display: flex;
+    height: 18em;
 }
 
 .justerverk{
-    height: 30em;
+    height: 22em;
 }
 
 .left-half {
@@ -192,7 +197,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left top;
-    flex: 1;
+    flex: 1.25;
     padding: 1rem;
 }
 
@@ -247,6 +252,7 @@ header {
     text-align: left;
     padding-left: 85px;
 }
+
 @media (max-width: 1440px){
     .navbar-inverse .navbar-nav > li > a {
     font-size: 1.4em !important;
@@ -265,6 +271,7 @@ header {
         padding: 15px
     }
 }
+
 @media (max-width: 1000px) {
     .collapse {
         display: none !important;
@@ -272,11 +279,13 @@ header {
 }
 
 .right-half {
-    width:80%;
-    float:right;
+    width: 80%;
+    float: right;
     background-color: white;
     flex: 1.5;
     padding: 1rem;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
 }
 
 .readRåsort{
@@ -298,11 +307,11 @@ header {
     background-color: whitesmoke;
 }
 
-.item-råsort{
+.item-justerverk{
     background-color: white;
     float: right;
     padding-right: 0;
-    margin-top: 5em;
+    margin-top: 1em;
 }
 
 .glyphicon-log-in{
@@ -335,7 +344,7 @@ header {
     width: 55%;
     float: left;
     background-color: whitesmoke;
-    flex: 1.25;
+    flex: 1.5;
     padding: 1rem;
     padding-left: 3.5em;
     padding-right: 3.5em;
@@ -356,28 +365,91 @@ header {
 section {
     border: solid 1px #dfdfdf;
 }
-
-
-.sideLeft {
-    background-color: red;
-    margin-top: 80px;
-    width: 30%;
-    display: inline-block;
+.backgroundColor{
+    background-color: white;
 }
 
-.sideRight{
-   margin-top:80px;
-   background-color:blue;
-   width:69%;
-  display:inline-block;
-    
+
+.autom{
+    height: 23em;
+}
+.automationLeft {
+    float: left;
+    background-image: url(Images/automation1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    flex: 1.25;
+}
+.automationRight {
+    float: right;
+    height: 100%;
+    width: 55%;
+    background-color: white;
+    flex: 1.5;
+    padding: 1rem;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
 }
 
+.automationText{
+    text-align: left;
 }
-#rasorteringSection{
-    height:100%;
-    width:100%;
-    background-color:whitesmoke;
 
+.item-automation {
+    background-color: whitesmoke;
+    float: left;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: 0.5em;
+}
 
+.eftermarknadRight {
+    float: right;
+    background-image: url(Images/ulrik-helbild.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    flex: 0.5em;
+}
+
+.eftermarknadLeft {
+    float: left;
+    height: 100%;
+    width: 55%;
+    background-color: whitesmoke;
+    flex: 2.5;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-top: 3em;
+
+}
+
+.eftermarknadText{
+    text-align: left;
+}
+
+#eftermarknad {
+    height: 22em;
+}
+.item-eftermarknad {
+    background-color: white;
+    float: right;
+}
+#to_top_button{
+    position:fixed;
+    right: 3em;
+    bottom: 3em;
+    height: 2.5em;
+    width: 2.5em;
+    z-index: 200;
+    text-align:center;
+    border: 1px solid #dfdfdf;
+    border-radius: 0.5em;
+    visibility:hidden;
+    transition: all 0.25s ease;
+}
+
+.aboutNav {
+    margin:100px;
 }

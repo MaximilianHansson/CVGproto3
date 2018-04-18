@@ -1,21 +1,21 @@
-﻿
-window.onscroll = function () {
+﻿window.onscroll = function () {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("mainNav").classList.add("past-main");
+        document.getElementById("to_top_button").style.visibility = "visible";
+        
     }
     else {
         document.getElementById("mainNav").classList.remove("past-main");
+        document.getElementById("to_top_button").style.visibility = "hidden";
+        
     }
 }
 
-/*function hide() {
+function scrollToEle(eleName) {
+    var element = document.getElementById(eleName);
+    scrollTo(0, element.offsetTop - 100);
+}
 
-    var x = document.getElementById("hideDiv");
-    if (x.style.visibility == "visible") {
-        x.style.visibility = "hidden";
-    }
-    else {
-        
-        x.style.visibility = "visible";
-    }
-}*/
+function scrollToTop() {
+    window.scrollTo(0, 0)
+}
