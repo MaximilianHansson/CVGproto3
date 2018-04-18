@@ -24,7 +24,6 @@ hr {
 .body-content {
     text-align: center;
     font-size: 1.55em;
-    font-weight: bold;
     color: black;
 }
 
@@ -447,6 +446,48 @@ section {
     border: 1px solid #dfdfdf;
     border-radius: 0.5em;
     visibility:hidden;
-    transition: all 0.25s ease;
+    transition: all 0.25s ease
+}
+.nav_space{
+    height: 200px;
+    background-image:url(/Content/Images/planks1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#map{
+    height: 400px;
+    background-color: grey;
+    width: 20em;
+    margin: 2em;
+}
+.sec_left{
+    display:inline-block;
+    width: 49%;
+    text-align: left;
+    padding: 3em;
+}
 
+.sec_left p{
+    font-weight:400;
+    width: 50%;
+}
+
+/*Contact lists*/
+
+.contact_list{
+    list-style: none;
+    display: inline-block;
+}
+.contact_list li{
+    vertical-align: top;
+    border-bottom: 1px solid gray;
+    padding: 1em;
+    text-align:left;
+}
+.contact_list img{
+    height: 7em;
+    display: inline-block;
+}
+.contact_list p {
+    display:inline-block; 
 }
