@@ -8,6 +8,7 @@ p{
 }
 body {
     background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
 h1{
@@ -460,6 +461,7 @@ section {
     background-image:url(/Content/Images/planks1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    margin-bottom: 2em;
 }
 #map{
     height: 400px;
@@ -504,22 +506,23 @@ section {
     
 }
 
-}
+
 
 .rasorteringSection {
     height: 100%;
-    width: 1200px;
-    background-color: black;
-   
 }
 
 .menuContent li {
     list-style-type: none;
     text-align:left;
-    padding-top: 10px;
+    padding-top: 0.5em;
     font-size:20px;
-    
-
+}
+.menuContent h2{
+    text-align: left;
+}
+.menuContent{
+    padding-top: 1em;
 }
 .sideRight p{
     text-align:left;
@@ -545,10 +548,6 @@ section {
     font-size:50px;
 }
     
-
-    height: 100px;
-    background-color: black;
-}
 #pPadding {
     padding-top: 1em;
 }
@@ -587,3 +586,7 @@ section {
     display:inline-block; 
 }
 
+.employees{
+    background-color: white;
+    padding-top: 1.5em;
+}
