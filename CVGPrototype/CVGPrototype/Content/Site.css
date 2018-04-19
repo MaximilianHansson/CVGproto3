@@ -489,7 +489,7 @@ section {
     background-color: white;
    
     display: block;
-    padding-top:5px;
+    padding-top:0.5em;
     padding-bottom:800px;
     display:inline-block;
 
@@ -520,11 +520,6 @@ section {
     font-size:20px;
     
 
-}
-h2{
-    text-align:left;
-   
-    font-size: 30px;
 }
 .sideRight p{
     text-align:left;
